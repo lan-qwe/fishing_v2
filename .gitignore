@@ -1,0 +1,35 @@
+# Unreal Engine 5 .gitignore
+
+# Папки со скомпилированным кодом и кэшем (ГЛАВНАЯ ПРИЧИНА ТВОИХ ОШИБОК)
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Source/
+
+# Файлы Visual Studio и IDE
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Файлы сборки и платформы
+*.target
+*.modules
+*.patch_*
+*.pdb
+*.obj
+
+# Системные файлы Windows и Mac
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные настройки пользователя (чтобы у вас с другом не конфликтовали настройки редактора)
+*.opensdf
+*.sdf
